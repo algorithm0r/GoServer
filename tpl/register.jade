@@ -1,0 +1,20 @@
+doctype
+html
+    head
+        title= "Dungeon Delver - Registration"
+    body
+        div
+            form(action='/reg', method='POST')
+                | Username: 
+                input#name(type='text', name ='username')
+                br
+                | Password: 
+                input#password(type='password', name='password')
+                br
+                | Re-type Password: 
+                input#repassword(type='password', name='repassword')
+                br
+                | E-mail: 
+                input#email(type='text', name='email')
+                br
+                input#login(type='submit', value='Log In')

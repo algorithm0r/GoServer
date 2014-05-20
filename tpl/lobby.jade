@@ -1,0 +1,17 @@
+doctype
+html
+    head
+        title= "WebGo"
+        script(src='/socket.io/socket.io.js')
+        script(src='/gameengine.js')
+        script(src='/gameboard.js')
+        script(src='/assetmgr.js')
+        script(src='/client.js')
+    body
+        canvas#gameworld(tabindex='1', width=800, height=800,style='border: 1px solid white; background: black;')
+        #content(style='width: 800px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;')
+        .controls
+        | Name: 
+        b#name #{username}
+        br
+        input#field(style='width:350px;')

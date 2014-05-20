@@ -1,0 +1,14 @@
+doctype
+html
+    head
+        title= "Dungeon Delver - Login"
+    body
+        div
+            form(action='/login', method='POST')
+                | Username: 
+                input#name(type='text', name ='username')
+                br
+                | Password: 
+                input#password(type='password', name='password')
+                br
+                input#login(type='submit', value='Log In')

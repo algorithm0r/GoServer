@@ -1,0 +1,22 @@
+{
+  "name": "WebGo",
+  "description": "Web Based Go Server",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.2.0",
+    "connect": "*",
+    "body-parser": "*",
+	"cookie-parser": "*",
+	"method-override": "*",
+	"express-session": "*",
+	"socket.io": "*",
+    "morgan": "*",
+    "mongojs": "*",
+	"mongodb": "*",
+    "jade": "*",
+    "bcrypt-nodejs": "*",
+	"passport": "*",
+	"passport-local": "*"
+  }
+}
